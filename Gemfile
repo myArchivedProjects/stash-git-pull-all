@@ -1,0 +1,6 @@
+source "http://rubygems.org"
+gem "rmagick"
+gem "fileutils"
+gem "rest-client"
+gem "parallel"
+gem "json"

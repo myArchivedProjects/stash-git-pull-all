@@ -1,0 +1,21 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    fileutils (0.7)
+      rmagick (>= 2.13.1)
+    json (1.8.0)
+    mime-types (1.23)
+    parallel (0.7.1)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rmagick (2.13.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fileutils
+  json
+  parallel
+  rest-client
+  rmagick
