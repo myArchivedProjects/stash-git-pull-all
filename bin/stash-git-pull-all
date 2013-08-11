@@ -2,4 +2,4 @@
 
 RUBY_BIN_PATH=/usr/bin/ruby-local-2.0.0-p247
 APP_ROOT_DIR=/opt/stash-git-pull-all
-BUNDLE_GEMFILE="$APP_ROOT_DIR/Gemfile $RUBY_BIN_PATH bundle exec $APP_ROOT_DIR/lib/stash-git-show-branches-all.rb"
+BUNDLE_GEMFILE="$APP_ROOT_DIR/Gemfile" $RUBY_BIN_PATH bundle exec $APP_ROOT_DIR/lib/stash-git-show-branches-all.rb
