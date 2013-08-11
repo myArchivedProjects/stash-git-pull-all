@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-RUBY_BIN_PATH=/usr/bin/ruby-local-2.0.0-p247
+RUBY_BIN_PATH=/opt/ruby-local-2.0.0-p247/bin
 APP_ROOT_DIR=/opt/stash-git-pull-all
 export PATH=$RUBY_BIN_PATH:$PATH
-BUNDLE_GEMFILE="$APP_ROOT_DIR/Gemfile" bundle exec $APP_ROOT_DIR/lib/stash-git-show-branches-all.rb
+BUNDLE_GEMFILE="$APP_ROOT_DIR/Gemfile" bundle exec $APP_ROOT_DIR/lib/stash-git-pull-all.rb
 BUNDLE_GEMFILE="$APP_ROOT_DIR/Gemfile" bundle exec gem list
