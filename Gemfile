@@ -1,4 +1,5 @@
 source "http://rubygems.org"
+gem "bundler"
 gem "rmagick"
 gem "fileutils"
 gem "rest-client"
