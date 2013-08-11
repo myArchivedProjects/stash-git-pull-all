@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+#!/usr/bin/env ruby-local-2.0.0-p247
 # Use this script to retrieve every repository available in Stash
 # on the first run, it will clone the repos into a defined directory
 # following runs, it will perform a git pull over those repos
